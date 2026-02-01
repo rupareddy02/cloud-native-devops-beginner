@@ -52,6 +52,8 @@ References , pratice of commands
 * Revision all commands
 * Small practice tasks
 
+Alternative commands - apt vs yum/dnf, ss vs netstat
+
 
 
 
