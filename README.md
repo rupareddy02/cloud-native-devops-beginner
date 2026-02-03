@@ -1,5 +1,5 @@
 
-Project covering all concepts for cloud engineers with this project 
+Project covering all concepts for cloud engineers with pratical experience
 
 # Cloud Native DevOps Beginner Project
 
