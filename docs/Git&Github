@@ -114,5 +114,21 @@ You can also install Git using package managers like **winget** or **Chocolatey*
 
 For Github - signup in the website.
 
+create normal folder in desired location(Desktop/Documents) -> open it -> right click even empty -> click on "open git bash here" 
+if its not visible click on more options there u can see -> its opens bash wrt location then ls -a type it will show /../.. as o/p so its not repo
+make this folder into repo use/ type "git init" -> it initializes git in ur folder but u created index.html in ur folder those changes are still in local area 
+so to move to staging area (place where git can track all changes of ur folder/file) through command "git add . " the changes will shown 
+to commit "git commit " with msg git commit -m "message u need to give" .
+
+🔁 Typical Workflow Example:
+git init            – Initializes a new Git repository in the current directory.
+git add .           – Stages all files and changes in the current directory for commit.
+git commit -m "Initial commit" –  Saves the staged changes as a new commit with a message.
+git status          – Shows the current state of the working directory and staging area.
+git log             – Displays the commit history of the repository.
+
+1.git add –all/git add .  -  This command will add the files to the staging area.
+2. git commit -m ‘message’ -  This command will commit the changes locally.
+3. git push remoteName BranchName – This command will push the changes from local repo to GitHub.
 
 
