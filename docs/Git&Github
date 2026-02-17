@@ -132,3 +132,25 @@ git log             – Displays the commit history of the repository.
 3. git push remoteName BranchName – This command will push the changes from local repo to GitHub.
 
 
+git branch - Its used to get List all the branches.    with these cmd we can Used to create, list, or delete branches.
+git branch -a  -> Shows local branches. The * indicates your current branch.
+
+🔹 Create a new branch
+git branch <branch-name>  , git branch feature-branch
+git branch “Page1”   -->  this will create new branch with name “Page1”   same Page2
+
+🔹 Switch to a branch
+git checkout feature-branch , git checkout <Page2>
+git switch feature-branch  (newer method to switch)
+
+🔹 Create and switch at the same time
+git checkout -b feature-branch   or git switch -c feature-branch
+
+🔹 Delete a branch
+git branch -d feature-branch
+
+GIT PULL
+-----------
+Used to fetch and merge changes from a remote repository. 
+PUSH - sharing content from local repo to github repo
+PULL - fetching content from github repo to local repo
